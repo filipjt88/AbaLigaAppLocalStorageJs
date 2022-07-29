@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #eee;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 1.1rem;
+    user-select: none;
+}
+
+
+.row {
+    margin-top: 50px;
+}
+
+#addPlayerTableView {
+    display: none;
+}
+
+#editDeletePlayerTableView {
+    display: none;
+}
+
+#editPlayerTableView {
+    display: none;
+}
